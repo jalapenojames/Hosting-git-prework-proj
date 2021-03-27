@@ -1,3 +1,23 @@
 body {
     background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: red solid 2px;
+    height: 100vh;
   }
+
+/* Creating markers*/
+h1 {
+    border: black solid 2px;
+}
+
+.med {
+    border: black solid 1px;
+    font-size: 300%;
+}
+
+.reply {
+    border: blue solid 1px
+}
