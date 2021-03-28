@@ -9,10 +9,20 @@ body {
   }
 
 /* visibility */
-.cover {
+/* .cover {
     visibility: visible;
     z-index: 2;
-}
+} */
+
+/* body {
+    z-index: 1;
+} */
+
+
+/* Making a cover */
+/* .cover {
+    width: 
+} */
 
 /* Creating markers*/
 h1 {
