@@ -1,5 +1,5 @@
 body {
-    background: #ffcc5c;
+    background: #a3b79c;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 /* visibility */
 #pageCover {
-    visibility: visible;
+    visibility: visible; 
 }
 
 
@@ -27,7 +27,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.8;  /* for demo purpose  */
+    opacity: 0.9;  /* for demo purpose  */
 }
 
 .cover {
@@ -76,6 +76,22 @@ h1.cover {
 .box.cover {
     color: white;
     background: black;
+}
+
+/* Editing style of page underneath */
+h1.under {
+    margin: 1em;
+    font-size: 3em;
+}
+.wrap {
+
+}
+
+.reply {
+    float: left;
+    width: 24.5%;
+    height: 10em;
+    margin-top: 1em;
 }
 
 /* Creating markers*/
