@@ -83,8 +83,10 @@ h1.under {
     margin: 1em;
     font-size: 3em;
 }
-.wrap {
 
+/* Uploading images */
+.img {
+    height: 10em;
 }
 
 .reply {
