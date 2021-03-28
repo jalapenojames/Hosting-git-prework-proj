@@ -1,15 +1,18 @@
 body {
     background: #ffcc5c;
     display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
     border: red solid 2px;
     
     height: 90vh;
     width: 90vw;
     position: relative;
+
+    box-sizing: border-box;
   }
+
 
 /* visibility */
 #pageCover {
@@ -34,29 +37,37 @@ body {
 }
 
 /* Adding arrows to cover */
-.arrow {
-    border: solid black;
-    border-width: 0 20px 20px 0;
-    margin:0px;
-    width:100px;
-    height:100px;
+
+/* Make containers first */
+.thing {
+    border: blue solid 5px;
+    width: 32%;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-top: 100px;
   }
 
-  /* Moving arrow to middle */
-  .arrow {
-    margin-top: 20%;
-    margin-left: 20%;
+  .envelope {
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
   }
-  
-  /* Rotate 'boxes' into arrow */
-  .right {
-    transform: rotate(-45deg);
-  }
+
+ 
+/* expanding h1 on cover */
+h1.cover {
+    height: 33%;
+    padding-top: 5%;
+    font-size: 4em;
+}
 
 /* Creating markers*/
-h1 {
+/* h1 {
     border: black solid 2px;
-}
+} */
+
 
 .med {
     border: black solid 1px;
