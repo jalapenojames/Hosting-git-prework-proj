@@ -54,13 +54,22 @@ body {
     flex-direction: row;
     justify-content: center;
   }
-
  
 /* expanding h1 on cover */
 h1.cover {
     height: 33%;
     padding-top: 5%;
     font-size: 4em;
+}
+
+/* Add arrows to containers */
+.arrow {
+    border: solid black;
+    border-width: 0 30px 30px 0;
+    width: 5em;
+    height: 5em;
+    transform: rotate(-45deg);
+    margin-left: 30%;
 }
 
 /* Creating markers*/
