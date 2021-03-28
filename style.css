@@ -1,5 +1,5 @@
 body {
-    background: lightskyblue;
+    background: #ffcc5c;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -7,6 +7,12 @@ body {
     border: red solid 2px;
     height: 100vh;
   }
+
+/* visibility */
+.cover {
+    visibility: visible;
+    z-index: 2;
+}
 
 /* Creating markers*/
 h1 {
