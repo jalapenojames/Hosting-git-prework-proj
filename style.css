@@ -1,3 +1,7 @@
+* {
+    font-family: Helvetica;
+}
+
 body {
     background: #a3b79c;
     display: flex;
@@ -80,7 +84,7 @@ h1.cover {
 
 /* Editing style of page underneath */
 h1.under {
-    margin: 1em;
+    margin: .5em;
     font-size: 3em;
 }
 
@@ -103,6 +107,10 @@ h1.under {
     margin-bottom: 2em;
 }
 
-.reply {
-    /* border: blue solid 1px */
+.reply2 {
+    /* border: blue solid 1px; */
+    float: left;
+    width: 24.5%;
+    height: 10em;
+    margin-top: 0.5em;
 }
