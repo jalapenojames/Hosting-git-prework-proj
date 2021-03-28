@@ -33,6 +33,26 @@ body {
     background: red;
 }
 
+/* Adding arrows to cover */
+.arrow {
+    border: solid black;
+    border-width: 0 20px 20px 0;
+    margin:0px;
+    width:100px;
+    height:100px;
+  }
+
+  /* Moving arrow to middle */
+  .arrow {
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  
+  /* Rotate 'boxes' into arrow */
+  .right {
+    transform: rotate(-45deg);
+  }
+
 /* Creating markers*/
 h1 {
     border: black solid 2px;
