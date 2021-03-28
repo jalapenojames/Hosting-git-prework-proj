@@ -98,10 +98,11 @@ h1.under {
 
 /* Creating markers*/
 .med {
-    border: black solid 1px;
+    /* border: black solid 1px; */
     font-size: 300%;
+    margin-bottom: 2em;
 }
 
 .reply {
-    border: blue solid 1px
+    /* border: blue solid 1px */
 }
