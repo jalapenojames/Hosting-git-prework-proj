@@ -12,10 +12,9 @@ body {
   }
 
 /* visibility */
-/* .cover {
+#pageCover {
     visibility: visible;
-    z-index: 2;
-} */
+}
 
 
 /* Set page behind and cover to 100vwh*/
